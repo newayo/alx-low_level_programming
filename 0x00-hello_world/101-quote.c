@@ -1,8 +1,8 @@
 # include <stdio.h>
 # include <unistd.h>
-/** main entry point
+/** main - Entry point
  *
- * Must return 1 to be a success.
+ * Return: Always 1
  */
 int main(void)
 
