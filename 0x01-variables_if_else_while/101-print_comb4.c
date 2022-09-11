@@ -21,7 +21,7 @@ int main(void)
 		k_d = (i / 10 % 10 + '0');
 		l_d = (i % 10 + '0');
 
-		if ((J_d < k_d) && (k_d < l_d))
+		if ((j_d < k_d) && (k_d < l_d))
 		{
 			putchar(j_d);
 			putchar(k_d);
@@ -30,7 +30,7 @@ int main(void)
 			if (i != 789)
 			{
 				putchar(',');
-				putchar(' ')
+				putchar(' ');
 			}
 		}
 		i++;
