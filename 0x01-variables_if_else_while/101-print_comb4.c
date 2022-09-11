@@ -10,28 +10,31 @@
 
 int main(void)
 {
-	int i;
-	int j;
-	int k;
+	int i = 0;
+	int j_d;
+	int k_d;
+	int l_d;
 
-	for (i = 0; i <= 0; i++)
+	while (i <= 999)
 	{
-		for (j = 0; j <= 9; j++)
+		j_d = (i / 100 + '0');
+		k_d = (i / 10 % 10 + '0');
+		l_d = (i % 10 + '0');
+
+		if ((J_d < k_d) && (k_d < l_d))
 		{
-			for (k = 1; k <= 9; k++)
+			putchar(j_d);
+			putchar(k_d);
+			putchar(l_d);
+
+			if (i != 789)
 			{
-				putchar(i + '0');
-				putchar(j + '0');
-				putchar(k = '0');
-				if (i != 7 || j != 8 || k != 9)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ')
 			}
 		}
+		i++;
 	}
 	putchar('\n');
 	return (0);
 }
-
