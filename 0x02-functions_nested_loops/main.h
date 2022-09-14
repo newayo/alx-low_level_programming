@@ -5,7 +5,7 @@ int _putchar(char);
 void print_alphabeth(void);
 void print_alphabeth_x10(void);
 int _islower(int c);
-int is alpha(int c);
+int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
 int print_lasy_digit(int);
