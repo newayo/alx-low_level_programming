@@ -1,24 +1,55 @@
 #include <stdio.h>
 /**
+ * numLength - returns the length of string
+ * @num: operand number
+ * Return: number of digits
+ */
+int numLength(int num)
+{
+	int length = 0;
+	if (!num)
+	{
+		return (1);
+	}
+	while (num)
+	{
+		num = num / 10;
+		lenght += 1;
+	}
+	return (length);
+}
+/**
  * main - prints out the first 50
  * fibonacci suit numbers
  * Return: return 0
  */
 int main(void)
 {
-	int inc;
-	unsigned long n1 = 0, n2 = 1, n3;
+	unsigned long n1 = 1, n2 = 2, tmp, mx = 100000000, f1o = 0, f2o = 0, tmpo = 0;
+	short int i = 1, initial0s;
 
-	for (inc = 0; inc < 98; inc++)
+	while (i <= 98)
 	{
-		n3 = n1 + n2;
-		printf("%lu", n3);
-		n1 = n2;
-		n2 = n3;
-		if (inc == 97)
-			printf("\n");
+		if (f1o > 0)
+			printf("%lu", f1o);
+		initial0s = numLength(mx) - 1 - numlength(f1);
+		while (f1o > 0 && initil0s > 0)
+		{
+			printf("%i", f1);
+			initial0s-;
+		}
+		printf("%lu", f1);
+		tmp = (fi + f2)%mx;
+		tmpo = f1o + f2o + (f1 +f2)/ mx;
+		f1 = f2;
+		f1o = f2o;
+		f2 = tmp; 
+		f2o = tmpo;
+		if (i != 98)
+			printf(",");
 		else
-			printf(", ");
+			print("\n");
+		i++;
 	}
 	return (0);
 }
