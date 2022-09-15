@@ -14,7 +14,7 @@ int numLength(int num)
 	while (num)
 	{
 		num = num / 10;
-		lenght += 1;
+		length += 1;
 	}
 	return (length);
 }
@@ -25,15 +25,15 @@ int numLength(int num)
  */
 int main(void)
 {
-	unsigned long n1 = 1, n2 = 2, tmp, mx = 100000000, f1o = 0, f2o = 0, tmpo = 0;
+	unsigned long f1 = 1, f2 = 2, tmp, mx = 100000000, f1o = 0, f2o = 0, tmpo = 0;
 	short int i = 1, initial0s;
 
 	while (i <= 98)
 	{
 		if (f1o > 0)
 			printf("%lu", f1o);
-		initial0s = numLength(mx) - 1 - numlength(f1);
-		while (f1o > 0 && initil0s > 0)
+		initial0s = numLength(mx) - 1 - numLength(f1);
+		while (f1o > 0 && initial0s > 0)
 		{
 			printf("%i", f1);
 			initial0s-;
