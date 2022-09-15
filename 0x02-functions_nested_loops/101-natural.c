@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - print count of multiples
- * of 3 or 5below 1024
- * Retun: 0
+ * of 3 or 5 below 1024
+ * Retun: return 0
  */
 int main(void)
 {
