@@ -3,7 +3,7 @@
  *jack_bauer - function that print every minute of the day of jack bauer, stari
  *n from 00:00 to 23:59 min loops count mins while hour loop couut hours
  *and reset mins
- *Return: 0 
+ *Return: 0
  */
 void jack_bauer(void)
 {
