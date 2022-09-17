@@ -21,11 +21,11 @@ int main(void)
 			else
 				printf("Buzz ");
 		}
-			else if (h % 3 == 0)
-				printf("Fizz ");
-			else
-				printf("%d ", h);
-			h++
+		else if (h % 3 == 0)
+			printf("Fizz ");
+		else
+			printf("%d ", h);
+		h++;
 	}
 	return (0);
 }
