@@ -11,5 +11,5 @@ void print_line(int n)
 	{
 		putchar('_');
 	}
-	putchar("\n");
+	putchar('\n');
 }
