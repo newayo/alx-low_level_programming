@@ -1,6 +1,5 @@
-#ifndef MAIN.H
-#define MAIN.H
-
+#ifndef MAIN_H
+#define MAIN_H
 /**
  * void prototype()
  * int prototype()
@@ -18,4 +17,4 @@ void print_array(int *a, int *b);
 char *_stropy(char *dest, char *src);
 int _atoi(char *str);
 
-#endif /* MAIN.H */
+#endif /* MAIN_H */
