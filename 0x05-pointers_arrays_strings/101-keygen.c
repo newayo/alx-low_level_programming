@@ -7,12 +7,12 @@
  *
  * Return: generated password
  */
-iny main(void)
+int main(void)
 {
 	char c;
 	int x;
 
-	srand(time(n));
+	srand(time(0));
 	while (x < 2645)
 	{ 
 		c = rand() % 128;
@@ -20,5 +20,5 @@ iny main(void)
 		putchar(c);
 	}
 	putchar(2772 - x);
-	return (0)
+	return (0);
 }
