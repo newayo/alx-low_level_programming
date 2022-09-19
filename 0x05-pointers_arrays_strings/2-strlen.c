@@ -4,7 +4,7 @@
  *@s: string
  *Return: returns length as integer;
  */
-int _strlen(char *8)
+int _strlen(char *n)
 {
 	int len = 0;
 
