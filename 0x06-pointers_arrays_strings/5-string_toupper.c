@@ -3,7 +3,7 @@
  * string_toupper - changes all the lowercase
  * letters to capital letters
  * @s: string to be capitalized
- * 
+ *
  * Return: return address to the string.
  */
 char *string_toupper(char *str)
