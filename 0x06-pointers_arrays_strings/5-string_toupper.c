@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * string_toupper - Capitalize whole string.
+ * string_toupper - changes all the lowercase
+ * letters to capital letters
  * @s: string to be capitalized
  * 
- * Return: Always return address to the string.
+ * Return: return address to the string.
  */
 char *string_toupper(char *str)
 {
@@ -12,9 +13,7 @@ char *string_toupper(char *str)
 	while (str[i] != '\0')
 	{
 		if ((str[i] >= 97) && (str[i] <= 122))
-		{
 			str[i] = str[i] - 32;
-		}
 		i++;
 	}
 	return (str);
